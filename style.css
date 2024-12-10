@@ -1,47 +1,181 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
+/* General Styles */
 body {
-    font-family: 'Lexend Peta', sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
 }
 
-.lexend-peta-unique {
-  font-family: "Lexend Peta", sans-serif;
-  font-optical-sizing: auto;
+a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.header {
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.link {
+  font-size: 1.2rem;
+}
+
+.intro {
+  margin: 20px 0;
+  position: relative;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.scroll {
+  font-size: 1rem;
+  color: #666;
+}
+
+.car-image {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+.project {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-image {
+  flex: 1;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.project-description {
+  flex: 2;
+}
+
+.project-description h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.project-description p {
+  margin: 10px 0;
+}
+
+
+
+.racing-sans-one-regular {
+  font-family: "Racing Sans One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-.header img {
-    width: 60vh; 
-    height: auto;
+.roboto-light {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-#lluis {
-    margin: 0; 
-    flex-grow: 1;
-    text-align: center;
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-main {
-    flex: 1;
+.roboto-medium {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #690ba073;
-    height: 10vh;
-    gap: 45px;
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: italic;
 }
